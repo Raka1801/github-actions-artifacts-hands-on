@@ -27,10 +27,11 @@ jobs:
       with:
         name: hello-artifact
         path: ./artifacts
-    - run: ls -ltra /artifacts
+
     - name: display
       run: cat ./artifacts/hello.txt
       
+
 
 
 
